@@ -1,0 +1,63 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment files (sensitive info)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Secrets and private keys
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+serviceAccount*.json
+firebase-service-account*.json
+google-service-account*.json
+secrets.json
+credentials.json
+*.secret
+*.secrets
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+*.local
+coverage/
+.cache/
+.tmp/
+tmp/
